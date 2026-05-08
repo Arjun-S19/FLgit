@@ -80,4 +80,4 @@ Semantic FLP parsing and diffing is powered by [flpdiff](https://github.com/dawh
 
 ## MIT License
 
-This project is licensed under the [MIT License]().
+This project is licensed under the MIT License.
