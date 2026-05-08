@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.devserver/
+.env
+src-tauri/target/
+src-tauri/bin/*
+*.log
+.flgit/logs/
+src-tauri/.flgit/logs/
