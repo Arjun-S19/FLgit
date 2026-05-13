@@ -640,6 +640,30 @@ button:disabled {
   padding: 0 10px;
 }
 
+.github-box select {
+  background: #000;
+  color: var(--fg);
+  cursor: pointer;
+}
+
+.github-box select:hover:not(:disabled) {
+  border-color: #5a5a5a;
+  background: #050505;
+  box-shadow:
+    0 0 10px rgba(255, 255, 255, 0.14),
+    0 0 2px rgba(255, 255, 255, 0.28);
+}
+
+.github-box select option {
+  background: #000;
+  color: var(--fg);
+}
+
+.github-box select option:checked {
+  background: #1d1d1d;
+  color: var(--fg);
+}
+
 .remote-box input,
 .clone-dialog input,
 .init-box input,

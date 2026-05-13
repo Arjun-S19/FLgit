@@ -39,11 +39,9 @@ npm run build
 node --test
 
 # run Rust tests
-cd src-tauri
-cargo test
+cd src-tauri && cargo test && cd ..
 
-# return to repo root, then run the Tauri app
-cd ..
+# run the Tauri app
 npm run tauri dev
 ```
 
@@ -55,11 +53,20 @@ npm run tauri dev
 - Git
 - Git LFS
 - GitHub CLI
+- flpdiff
 - FL Studio
 
 #### Portable setup:
 
-1. Build a FLgit portable release folder
+1. Build a portable release
+    1. Run the following commands at project root
+        1. ```powershell
+            npm install
+            npm run build
+            cd src-tauri && cargo test && cd ..
+            npm run tauri -- build
+            ```
+        2. Release will be installed to `src-tauri/target/release/`
 2. Install Git, Git LFS, and GitHub CLI, if not already installed
     1. Open PowerShell and configure Git with your name and email:
         1. `git config --global user.name "Your Name"`
