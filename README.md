@@ -2,6 +2,9 @@
 
 FLgit is a Windows version control companion for FL Studio. It provides an overlay UI for managing FL Studio project versions through Git, Git LFS, and GitHub CLI, and semantic diffs for `.flp` files through flpdiff integration.
 
+<img src="flgit.png" style="border-radius: 7px;">
+
+
 ## Features
 
 - **FL Studio overlay:** Collapsed launcher and expanded source-control panel designed to sit over FL Studio
